@@ -1,0 +1,23 @@
+nav.navbar .navbar-brand img.logo {
+    width: 100px;
+}
+
+.about-us {
+    position: relative;
+}
+
+.about-us-text {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    width: 80%;
+    color: #000;
+}
+
+.about-us-text h1 {
+    color: #000;
+}
+
+.img-categories {}
