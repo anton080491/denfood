@@ -145,7 +145,7 @@
 		margin: 15,
 		dots: false,
 		autoplay: true,
-		autoplayTimeout: 3000,
+		autoplayTimeout: 1500,
 		autoplayHoverPause: true,
 		navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
 		responsive: {
