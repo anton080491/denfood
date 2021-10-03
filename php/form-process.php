@@ -31,7 +31,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "armanmia7@gmail.com";
+$EmailTo = "nastya-holo@mail.ru";
 $Subject = "New Message Received";
 
 // prepare email body text
@@ -41,12 +41,6 @@ $Body .= $name;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $email;
-$Body .= "\n";
-$Body .= "guest: ";
-$Body .= $guest;
-$Body .= "\n";
-$Body .= "event: ";
-$Body .= $event;
 $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $message;

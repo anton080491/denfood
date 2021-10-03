@@ -56,6 +56,15 @@ nav.navbar .navbar-brand img.logo {
     max-width: 100%;
 }
 
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu {
+    background: #fff;
+}
+
+nav.navbar.bootsnav ul.navbar-nav li.dropdown ul.dropdown-menu li a {
+    color: black;
+
+}
+
 /* /////////////////////////////cart//// */
 
 

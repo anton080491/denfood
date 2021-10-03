@@ -18,6 +18,7 @@
 
     nav.navbar .navbar-brand img.logo {
         width: 100px;
+        margin-right: 100px;
     }
 
     nav.navbar.bootsnav .navbar-header {
@@ -109,6 +110,7 @@
     .right-phone-box {
         display: none;
     }
+
 }
 
 /* mobile or only mobile */
@@ -116,6 +118,7 @@
 
     nav.navbar .navbar-brand img.logo {
         width: 100px;
+        margin-right: 100px;
     }
 
     nav.navbar.bootsnav .navbar-header {
@@ -296,6 +299,7 @@
 @media only screen and (min-width: 280px) and (max-width: 599px) {
     nav.navbar .navbar-brand img.logo {
         width: 100px;
+        margin-right: 200px;
     }
 
     .navbar-light .navbar-toggler {
