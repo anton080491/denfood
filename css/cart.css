@@ -1,65 +1,3 @@
-nav.navbar .navbar-brand img.logo {
-    width: 200px;
-}
-
-.about-us {
-    position: relative;
-}
-
-.about-us-text {
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    top: 20%;
-    transform: translateX(-50%);
-    width: 80%;
-    color: #000;
-}
-
-.about-us-text h1 {
-    color: #000;
-}
-
-.Levering {
-    margin: 0 auto;
-}
-
-.shopCarts {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.CartBlock {
-    display: flex;
-    flex-direction: row;
-}
-
-.Cart {
-    width: 300px;
-    border: 1px solid black;
-}
-
-.cartDesc {
-    display: flex;
-    flex-direction: column;
-    padding-left: 10px;
-}
-
-.cartDesc h3 {
-    padding: 0;
-    margin: 0;
-}
-
-.img-fluid {
-    max-width: 100%;
-}
-
-/* /////////////////////////////cart//// */
-
-
-
 @font-face {
     font-family: Roboto;
     src: url(fonts/Roboto-Regular.ttf) format('TrueType');
@@ -105,14 +43,16 @@ html {
 
 @media screen and (max-width:765px) {
     .product_cards {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr;
         width: 100%;
+        row-gap: 16px;
         padding: 12px
     }
 
     .product_cards .card {
-        width: 200px;
+        width: 100%;
+        max-width: 100%;
         border-radius: 8px;
         padding: 10px 0 0 10px;
         overflow: hidden;
