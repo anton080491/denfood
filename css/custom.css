@@ -116,12 +116,14 @@ html {
     .product_cards {
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
-        padding: 12px
+        padding: 24px;
+        justify-content: center;
+        align-items: center;
     }
 
     .product_cards .card {
-        width: 200px;
+        width: 250px;
+        margin: 20px;
         border-radius: 8px;
         padding: 10px 0 0 10px;
         overflow: hidden;
@@ -345,15 +347,16 @@ html {
 
 @media screen and (min-width:768px) {
     .product_cards {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        column-gap: 12px;
-        row-gap: 24px;
-        padding: 24px
+        display: flex;
+        flex-wrap: wrap;
+        padding: 24px;
+        justify-content: center;
+        align-items: center;
     }
 
     .product_cards .card {
         height: 367px;
+        margin: 20px;
         padding: 8px 12px 11px;
         position: relative;
         background-color: #fff;
@@ -362,7 +365,7 @@ html {
         overflow: hidden;
         cursor: pointer;
         will-change: box-shadow;
-        width: 100%;
+        width: 250px;
         min-height: 362px;
         height: 362px;
         transition: box-shadow .3s;

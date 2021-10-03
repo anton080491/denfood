@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: Roboto;
     src: url(fonts/Roboto-Regular.ttf) format('TrueType');
     font-display: swap;
@@ -43,15 +43,16 @@ html {
 
 @media screen and (max-width:765px) {
     .product_cards {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        row-gap: 16px;
         padding: 12px
     }
 
     .product_cards .card {
-        width: 100%;
+        width: 200px;
         max-width: 100%;
         border-radius: 8px;
         padding: 10px 0 0 10px;
@@ -276,10 +277,10 @@ html {
 
 @media screen and (min-width:768px) {
     .product_cards {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        column-gap: 12px;
-        row-gap: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         padding: 24px
     }
 
@@ -293,7 +294,7 @@ html {
         overflow: hidden;
         cursor: pointer;
         will-change: box-shadow;
-        width: 100%;
+        width: 200px;
         min-height: 362px;
         height: 362px;
         transition: box-shadow .3s;
@@ -574,4 +575,4 @@ html {
     .product_cards .card .form_count_product .count_product {
         font-size: 22px
     }
-}
+} */
