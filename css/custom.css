@@ -4,6 +4,9 @@ nav.navbar .navbar-brand img.logo {
 
 .about-us {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-us-text {
@@ -13,7 +16,9 @@ nav.navbar .navbar-brand img.logo {
     top: 20%;
     transform: translateX(-50%);
     width: 80%;
+    height: 80%;
     color: #000;
+    font-size: calc((100vw - 480px)/(1280 - 480) * (20 - 10) + 10px);
 }
 
 .about-us-text h1 {
