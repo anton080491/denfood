@@ -679,7 +679,7 @@ html {
     margin-top: 20px;
 }
 
-.product-category li {
+.product-category button {
     display: block;
     border: #dddddd solid 2px;
     border-radius: 10px;
@@ -692,10 +692,10 @@ html {
     margin-bottom: 10px;
 }
 
-.product-category li:hover {
+.product-category button:hover {
     background-color: #fff;
 }
 
-.product-category li:last-child {
+.product-category button:last-child {
     margin-right: 0;
 }
